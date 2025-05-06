@@ -1,0 +1,5 @@
+n=int(input("enter the value"))
+sum_n=0
+for x in range  (n+1):
+	sum_n=sum_n+x
+print("sum of {} number is : {} ".format(n,sum_n))
